@@ -1,1 +1,6 @@
-INSERT INTO
+INSERT INTO department (name)
+VALUES ("Healthcare")
+       ("Law Enforcement")
+       ("Food Service")
+       ("Politicians")
+       ("Legal")
