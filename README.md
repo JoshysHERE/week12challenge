@@ -1,6 +1,6 @@
-# Project Twelve: 
+# Project Twelve: Employee Tracker
   
-## Description:
+## Description: 
   
 ## Deployed Application URL:
  GitHub Pages:  
@@ -12,7 +12,7 @@
 * [License](#license)
 
 ## Installation
-  Inquirer & Jest
+  Inquirer & MYSQL2
 ## How to Use This Application:
   Video Link: 
 ## Contributors
