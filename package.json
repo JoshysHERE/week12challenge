@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  },
+  "name": "week12challenge",
+  "description": "GitHub Pages:   ## Table of Contents * [Installation](#installation) * [Contributors](#contributors) * [Tests](#tests) * [Questions](#questions) * [License](#license)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
