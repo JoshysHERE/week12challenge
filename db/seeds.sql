@@ -1,34 +1,34 @@
 INSERT INTO department (name)
-VALUES ("Healthcare");
-       ("Law Enforcement");
-       ("Food Service");
-       ("City Worker");
-       ("Legal");
+VALUES  ("Engineering"),
+        ("Finance"),
+        ("Interconnected"),
+        ("Sales"),
+        ("Legal");
 
-       INSERT INTO role (title, salary, department_id)
-       VALUES ("Doctor, 500000, 1"),
-              ("Lawyer, 300000, 5"),
-              ("Police Officer, 50000, 2"),
-              ("Chef, 40000, 3"),
-              ("Head Chef, 75000, 3"),
-              ("Waste Management, 38000, 4"),
-              ("Sherif, 80000, 2"),
-              ("Nurse, 75000, 1"),
-              ("Social Worker, 50000, 4"),
-              ("Paralegal, 55000, 5"),
-              ("Legal Secretary, 35000, 5"),
-              ("X Ray Tech, 85000, 1");
+INSERT INTO role (title, salary, department_id)
+VALUES  ("Engineering Manager", 100000, 1),
+        ("Engineering Lead", 120000, 1),
+        ("Staff Engineer", 70000, 1),
+        ("Finance Manager", 85000, 2),
+        ("Accountant", 70000, 2),
+        ("Brand Advocate Manager", 85000, 3),
+        ("Brand Advocate Sr. Analyst", 12000, 3),
+        ("Brand Advocate Analyst", 50000, 3),
+        ("Sales Manager", 15000, 4),
+        ("Salesperson", 25000, 4),
+        ("Legal Manager", 310000, 5),
+        ("Lawyer", 45000, 5);
 
-       INSERT INTO employees (first_name, last_name, role_id, manager_id)
-       VALUES ("Gabe", "Gubs", 4, NULL),
-              ("Linda", "Felcher", 2, NULL),
-              ("Mary", "Muck", 3, NULL),
-              ("Jimbo", "Higginbottom", 2, NULL),
-              ("Zeb", "Bunson", 5, NULL),
-              ("Kevin", "Douglas", 1, NULL),
-              ("Pat", "Munson", 4, NULL),
-              ("Anna", "Umba", 2, NULL),
-              ("Devin", "McDevin", 5, NULL),
-              ("Paul", "Pringle", 3, NULL),
-              ("Matteo", "Minckle", 1, NULL),
-              ("Janet", "Juzzum", 3, NULL);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES  ("Rick", "Gertz",  1, NULL),
+        ("Jeff", "Filmore",  2, 1),
+        ("Jilly", "Tuma",  3, 1), 
+        ("Jub", "Slemp",  4, NULL), 
+        ("Herbert", "Doe",  5, 4),
+        ("Yaya", "Yanda",  6, NULL), 
+        ("Mep", "Bumba",  7, 6), 
+        ("Linda", "Pill",  8, 6), 
+        ("Jefferson", "Rondz",  9, NULL), 
+        ("Bo", "Dood",  10, 9), 
+        ("Bilma", "Flub",  11, NULL), 
+        ("Paul", "Dapp",  12, 11);
