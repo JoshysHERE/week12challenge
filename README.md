@@ -16,7 +16,7 @@
 ## Installation
   Inquirer & MYSQL2
 ## How to Use This Application:
-  Video Link: 
+  Video Link: https://drive.google.com/file/d/1wKWJDhsBQ-eUGtnblrRQnWPSLZSATtmS/view
 ## Contributors
   JoshysHERE Github: https://github.com/JoshysHERE
 ## Tests
