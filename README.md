@@ -3,7 +3,7 @@
 ## Description: 
   
 ## Deployed Application URL:
- GitHub Pages:  
+ GitHub Pages:  https://joshyshere.github.io/week12challenge/
 ## Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)
