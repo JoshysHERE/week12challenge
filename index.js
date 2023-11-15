@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const mysql2 = require("mysql2/promise");
+const mysql = require("mysql2/promise");
 
 require("dotenv").config();
 
@@ -9,7 +9,7 @@ const dbName = process.env.DB_NAME;
 
 async function dbConnection(select) {
   try {
-    const db = await mysql2.createConnection({
+    const db = await mysql.createConnection({
       host: "localhost",
       user: dbUser,
       password: dbPassword,
