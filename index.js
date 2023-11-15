@@ -14,6 +14,7 @@ async function dbConnection(select) {
       user: dbUser,
       password: dbPassword,
       database: dbName,
+      port: 3306
     });
    
     let returnedRowsFromDb = [];
@@ -96,7 +97,7 @@ async function dbConnection(select) {
         const { roleName, roleSalary, roleDpt } = returnedOutputFromInq;
 
         const returnDepartmentId = await db.query(
-          `SELECT IFNULL((SELECT id FROM department WHERE name = "${roleDpt}"), "Department Does Not Exist")`
+          `SELECT IF NULL((SELECT id FROM department WHERE name = "${roleDpt}"), "Department Does Not Exist")`
         );
 
 
