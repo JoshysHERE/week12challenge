@@ -1,7 +1,7 @@
 # Project Twelve: Employee Tracker
   
 ## Description: 
-  
+  A Tracker for Employees
 ## Deployed Application URL:
  GitHub Pages:  https://joshyshere.github.io/week12challenge/
 ## Table of Contents
